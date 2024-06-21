@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "@types/node": "^20.14.7",
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "grammy": "^1.25.0"

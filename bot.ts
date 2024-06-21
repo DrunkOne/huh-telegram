@@ -1,7 +1,8 @@
 import { Bot } from "grammy";
+let cock:string = "${process.env.TOKEN}";
 
 // Create an instance of the `Bot` class and pass your bot token to it.
-const bot = new Bot("7379549744:AAGEMkokm4P8ZxZMok8zEvIWRlnJh-_h8Xk"); // <-- put your bot token between the ""
+const bot = new Bot(cock); // <-- put your bot token between the ""
 
 // You can now register listeners on your bot object `bot`.
 // grammY will call the listeners when users send messages to your bot.
